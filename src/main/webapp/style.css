@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #E1E1E1;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+}
+
+.form-container {
+    display: flex;
+    background-color: #FFF;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.selectWrapper {
+    display: grid;
+    gap: 35px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 373px;
+    margin: auto;
+}
+
+.selectItem {
+    width: 140px;
+}
+
+.selectItem__right {
+    justify-self: right;
+}
+
+.selectItem_select>select {
+    width: 100%;
+}
